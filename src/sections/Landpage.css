@@ -1,0 +1,20 @@
+.welcome-sect {
+   position: relative;
+   overflow: hidden;
+	background-image:  linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.2)), url("../assets/img/destinations/image-5.jpg");
+   background-size: cover;
+	height: 1000px;
+}
+.welcome-text {
+	@apply text-5xl text-white flex flex-col justify-center items-center;
+	padding: 150px;
+}
+.welcome-picts {
+	@apply flex flex-row justify-evenly;
+}
+.welcome-pict {
+	width: 200px;
+	height: 140px;
+	object-fit: cover;
+   border-radius: 3px;
+}

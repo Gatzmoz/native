@@ -1,0 +1,19 @@
+.navbar {
+	@apply flex flex-row justify-between w-full px-16;
+}
+.navbar-brand{
+   @apply text-white;
+}
+.navbar-links {
+	@apply flex flex-row justify-center items-center;
+}
+.navbar-link {
+	@apply mx-2 text-gray-400;
+}
+.navbar-link.active{
+   @apply font-bold text-white;
+}
+
+.lang {
+	@apply flex;
+}
